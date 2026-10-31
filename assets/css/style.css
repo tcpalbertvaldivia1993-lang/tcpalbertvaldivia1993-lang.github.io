@@ -149,7 +149,8 @@ em { font-family: var(--serif); font-style: italic; font-weight: 400; }
   padding-block: 4.5rem 3.5rem;
 }
 .hero h1 { font-size: clamp(2.3rem, 6vw, 3.8rem); font-weight: 700; letter-spacing: -.02em; }
-.hero h1 em { color: var(--accent); }
+/* Nombre completo con la misma letra y el mismo color */
+.hero h1 em { color: inherit; font-family: inherit; font-style: normal; font-weight: inherit; }
 .lead { font-size: 1.12rem; color: var(--muted); max-width: 60ch; }
 .highlights { list-style: none; margin: 0 0 1.5rem; display: grid; gap: .4rem; }
 .highlights li { padding-left: 1.4rem; position: relative; color: var(--muted); }
